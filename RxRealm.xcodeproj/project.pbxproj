@@ -21,6 +21,10 @@
 		16E670F3B84DBD02BA39F63B /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB699E9CC552B40D1161A42 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		174773D7E6217DF93CBCB3E7 /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6878289DB5FCAF428C71FD1E /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		181FD4A3167391BFF0187D4D /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28C341B3590DEC423785B870 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1979701F2AB1AC6C00E5BD8C /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979701E2AB1AC6C00E5BD8C /* Observable+Alias.swift */; };
+		197970202AB1AC6C00E5BD8C /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979701E2AB1AC6C00E5BD8C /* Observable+Alias.swift */; };
+		197970212AB1AC6C00E5BD8C /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979701E2AB1AC6C00E5BD8C /* Observable+Alias.swift */; };
+		197970222AB1AC6C00E5BD8C /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979701E2AB1AC6C00E5BD8C /* Observable+Alias.swift */; };
 		198A016A38AEFDB547BB1CA1 /* RxRealmWriteSinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469BA8F081888D6C6C8A7A4 /* RxRealmWriteSinks.swift */; };
 		19FD82BFB4F77BAF53AA7A44 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4EE1F038C3DFCE761D706EA /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20ED72028C307A1B08C894B0 /* RxRealmObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F0474E240FC18ED7BFA43 /* RxRealmObjectTests.swift */; };
@@ -200,6 +204,7 @@
 		074CDA1C713713A27B9CE010 /* RxRealmResultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmResultsTests.swift; sourceTree = "<group>"; };
 		0AB699E9CC552B40D1161A42 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		105F0474E240FC18ED7BFA43 /* RxRealmObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmObjectTests.swift; sourceTree = "<group>"; };
+		1979701E2AB1AC6C00E5BD8C /* Observable+Alias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Alias.swift"; sourceTree = "<group>"; };
 		1E9D31CAD96293BBD551853D /* RxRealmTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxRealmTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C341B3590DEC423785B870 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTest.framework; sourceTree = "<group>"; };
 		3469BA8F081888D6C6C8A7A4 /* RxRealmWriteSinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmWriteSinks.swift; sourceTree = "<group>"; };
@@ -453,6 +458,7 @@
 				6C4369E78C4C2B69CE690530 /* Info.plist */,
 				48CAC0A41A45D2027D2A7298 /* RealmObserver.swift */,
 				4B6FDEA93324313D0EDEDA52 /* RxRealm.swift */,
+				1979701E2AB1AC6C00E5BD8C /* Observable+Alias.swift */,
 			);
 			name = RxRealm;
 			path = Sources/RxRealm;
@@ -647,6 +653,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197970202AB1AC6C00E5BD8C /* Observable+Alias.swift in Sources */,
 				5B1718CBBC48B48E8B44914A /* RealmObserver.swift in Sources */,
 				08D727FD7720CDE69CC3912F /* RxRealm.swift in Sources */,
 			);
@@ -656,6 +663,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197970212AB1AC6C00E5BD8C /* Observable+Alias.swift in Sources */,
 				A78AB60ED6B843BA61A709C6 /* RealmObserver.swift in Sources */,
 				9609078C1AAE88AB13A7708F /* RxRealm.swift in Sources */,
 			);
@@ -682,6 +690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197970222AB1AC6C00E5BD8C /* Observable+Alias.swift in Sources */,
 				065ACDE8D3926A85C32D1F90 /* RealmObserver.swift in Sources */,
 				393F1D5E93232779D3C696B6 /* RxRealm.swift in Sources */,
 			);
@@ -691,6 +700,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1979701F2AB1AC6C00E5BD8C /* Observable+Alias.swift in Sources */,
 				ADACE27D199538B61119F410 /* RealmObserver.swift in Sources */,
 				FA0FD5D4069CEA51E3EB7CEB /* RxRealm.swift in Sources */,
 			);
